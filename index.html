@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joshua Diegaardt | Computer Science & Business Computing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel=stylesheet href="styles.css"> 
 </head>
 <body>
     <header>
         <h1>Joshua Caleb Diegaardt</h1>
-        <p>3rd Year BSc Computer Science & Business Computing Student<br>University of Cape Town</p>
+        <p>Final Year BSc Computer Science & Business Computing Student<br>University of Cape Town</p>
         <div class="contact-links">
-            <a href="mailto:joshuadiegaardt70@gmail.com">Email</a>
-            <a href="https://github.com/JoshuaPianoGuy" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/joshua-diegaardt-3092b9301/">LinkedIn</a>
+            <a href="mailto:joshuadiegaardt70@gmail.com">
+                <i class="fa-solid fa-envelope"></i> Email
+            </a>
+            <a href="https://github.com/JoshuaPianoGuy" target="_blank">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/joshua-diegaardt-3092b9301/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
         </div>
     </header>
 
@@ -78,6 +85,7 @@
                             <li>Implemented email notification functionality</li>
                         </ul>
                         <div class="tech-tags">
+                            <span class="tag">C#</span>
                             <span class="tag">Full-Stack</span>
                             <span class="tag">Backend</span>
                             <span class="tag">SQL</span>
@@ -97,6 +105,7 @@
                             <li>Used TCP connections for reliable file transfer</li>
                         </ul>
                         <div class="tech-tags">
+                            <span class="tag">Python</span>
                             <span class="tag">Networking</span>
                             <span class="tag">TCP/IP</span>
                             <span class="tag">File Systems</span>
@@ -116,6 +125,7 @@
                             <li>Incorporated road blockage considerations</li>
                         </ul>
                         <div class="tech-tags">
+                            <span class="tag">Java</span>
                             <span class="tag">Algorithms</span>
                             <span class="tag">Data Structures</span>
                             <span class="tag">Graph Theory</span>
@@ -124,7 +134,68 @@
                         <p class="github-link" style="cursor: default;">Private repository (available upon request)</p>
                     </div>
                 </div>
+
+
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>Bloom Labelling Assistant</h3>
+                    <p>Capstone--Local web application that classifies exams according to Bloom's taxonomy.</p>
+                    <ul>
+                        <li>Integrated Bloominizer language model (fine-tuned BERT) for question classification</li>
+                        <li>Implemented and refined the language model component, improving prompt design and output parsing for greater accuracy</li>
+                        <li>Developed a question parsing pipeline to extract linguistic cues and support precise Bloom-level predictions</li>
+                        <li>Assisted with front-end debugging and integration to ensure smooth interaction between the interface and model backend</li>
+                        <li>Collaborated on testing and iterative refinement using real question datasets to enhance performance and user experience</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">NLP</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Front-End Debugging</span>
+                        <span class="tag">Educational Technology</span>
+                    </div>
+                    <p class="github-link" style="cursor: default;">Private repository (available upon request)</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+
+                <div class="project-content">
+                    <h3>Hang Man Game</h3>
+                    <p>A command-line interface (CLI) implementation of the classic Hang Man game that allows players to guess words one letter at a time.</p>
+                    <ul>
+                        <li>Supports both single-player and two-player modes</li>
+                        <li>Random word selection from a predefined word list in single-player mode</li>
+                        <li>Custom word input for competitive two-player gameplay</li>
+                        <li>Tracks incorrect guesses and displays remaining attempts</li>
+                        <li>Provides a simple ASCII-based visual representation of the Hang Man</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">CLI</span>
+                    </div>
+                    <p class="github-link" style="cursor: default;">Private repository (available upon request)</p>
+                </div>
             </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Parallel Processing Abelian Sandpile</h3>
+                        <p>Modified the Abelian Sandpile algorithm to add grains of sand in parallel.</p>
+                        <ul>
+                            <li>Modified a sequential algorithm to do parallel processing using multi-threading</li>
+                            <li>Compared parallel version to sequential version to determine the optimal sizes for speedup</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Image Processing</span>
+                        </div>
+                        <p class="github-link" style="cursor: default;">Private repository (available upon request)</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            
         </section>
 
         <section id="skills">
@@ -134,11 +205,11 @@
                     <div class="skill-category">
                         <h3>Programming Languages</h3>
                         <ul>
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>C#</li>
-                            <li>MIPS Assembly</li>
-                            <li>HTML & CSS</li>
+                            <li><i class="fa-brands fa-python"></i> Python</li>
+                            <li><i class="fa-brands fa-java"></i> Java</li>
+                            <li><i class="fa-brands fa-microsoft"></i> C#</li>
+                            <li><i class="fa-solid fa-microchip"></i> MIPS Assembly</li>
+                            <li><i class="fa-brands fa-html5"></i> HTML & CSS</li>
                         </ul>
                     </div>
                     <div class="skill-category">
@@ -154,9 +225,20 @@
                         <h3>Data & Databases</h3>
                         <ul>
                             <li>SQL</li>
+                            <li>Microsoft SQL Server</li>
+                            <li>MySQL</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Business Intelligence & Business Processes</h3>
+                        <ul>
                             <li>Tableau & Tableau Prep</li>
                             <li>Data Visualization</li>
                             <li>Data Analysis</li>
+                            <li>Signavio</li>
+                            <li>SAP Fiori</li>
+                            <li>Celonis</li>
                         </ul>
                     </div>
                     <div class="skill-category">

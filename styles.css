@@ -287,3 +287,10 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        .contact-links i,
+        .skill-category i {
+            margin-right: 8px;
+            font-size: 1.2rem;
+            vertical-align: middle;
+        }
